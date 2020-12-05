@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BA8E7F257BF5EF00456A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA8E7E257BF5EF00456A3D /* AppDelegate.swift */; };
+		15BA8E82257BF5EF00456A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8E80257BF5EF00456A3D /* Main.storyboard */; };
+		15BA8E84257BF5EF00456A3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA8E83257BF5EF00456A3D /* ViewController.swift */; };
+		15BA8E86257BF5F000456A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8E85257BF5F000456A3D /* Assets.xcassets */; };
+		15BA8E91257BF5F100456A3D /* OpenInNotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA8E90257BF5F100456A3D /* OpenInNotionTests.swift */; };
+		15BA8E9C257BF5F100456A3D /* OpenInNotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA8E9B257BF5F100456A3D /* OpenInNotionUITests.swift */; };
+		15BA8EA3257BF5F100456A3D /* OpenInNotion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15BA8EA2257BF5F100456A3D /* OpenInNotion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15BA8EA8257BF5F100456A3D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BA8EA7257BF5F100456A3D /* Cocoa.framework */; };
+		15BA8EAB257BF5F100456A3D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA8EAA257BF5F100456A3D /* SafariWebExtensionHandler.swift */; };
+		15BA8EAE257BF5F100456A3D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EAD257BF5F100456A3D /* _locales */; };
+		15BA8EB0257BF5F100456A3D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EAF257BF5F100456A3D /* images */; };
+		15BA8EB2257BF5F100456A3D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EB1257BF5F100456A3D /* manifest.json */; };
+		15BA8EB4257BF5F100456A3D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EB3257BF5F100456A3D /* background.js */; };
+		15BA8EB6257BF5F100456A3D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EB5257BF5F100456A3D /* content.js */; };
+		15BA8EB8257BF5F100456A3D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EB7257BF5F100456A3D /* popup.html */; };
+		15BA8EBA257BF5F100456A3D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EB9257BF5F100456A3D /* popup.css */; };
+		15BA8EBC257BF5F100456A3D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 15BA8EBB257BF5F100456A3D /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15BA8E8D257BF5F100456A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BA8E72257BF5EF00456A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BA8E79257BF5EF00456A3D;
+			remoteInfo = OpenInNotion;
+		};
+		15BA8E98257BF5F100456A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BA8E72257BF5EF00456A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BA8E79257BF5EF00456A3D;
+			remoteInfo = OpenInNotion;
+		};
+		15BA8EA4257BF5F100456A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BA8E72257BF5EF00456A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BA8EA1257BF5F100456A3D;
+			remoteInfo = "OpenInNotion Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15BA8EC4257BF5F100456A3D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15BA8EA3257BF5F100456A3D /* OpenInNotion Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15BA8E7A257BF5EF00456A3D /* OpenInNotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInNotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA8E7D257BF5EF00456A3D /* OpenInNotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenInNotion.entitlements; sourceTree = "<group>"; };
+		15BA8E7E257BF5EF00456A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15BA8E81257BF5EF00456A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15BA8E83257BF5EF00456A3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15BA8E85257BF5F000456A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15BA8E87257BF5F000456A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BA8E8C257BF5F100456A3D /* OpenInNotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenInNotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA8E90257BF5F100456A3D /* OpenInNotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenInNotionTests.swift; sourceTree = "<group>"; };
+		15BA8E92257BF5F100456A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BA8E97257BF5F100456A3D /* OpenInNotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenInNotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA8E9B257BF5F100456A3D /* OpenInNotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenInNotionUITests.swift; sourceTree = "<group>"; };
+		15BA8E9D257BF5F100456A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BA8EA2257BF5F100456A3D /* OpenInNotion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenInNotion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA8EA7257BF5F100456A3D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		15BA8EAA257BF5F100456A3D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		15BA8EAD257BF5F100456A3D /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		15BA8EAF257BF5F100456A3D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		15BA8EB1257BF5F100456A3D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		15BA8EB3257BF5F100456A3D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		15BA8EB5257BF5F100456A3D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		15BA8EB7257BF5F100456A3D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		15BA8EB9257BF5F100456A3D /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		15BA8EBB257BF5F100456A3D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		15BA8EBD257BF5F100456A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BA8EBE257BF5F100456A3D /* OpenInNotion_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenInNotion_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15BA8E77257BF5EF00456A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E89257BF5F100456A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E94257BF5F100456A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E9F257BF5F100456A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8EA8257BF5F100456A3D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15BA8E71257BF5EF00456A3D = {
+			isa = PBXGroup;
+			children = (
+				15BA8E7C257BF5EF00456A3D /* OpenInNotion */,
+				15BA8E8F257BF5F100456A3D /* OpenInNotionTests */,
+				15BA8E9A257BF5F100456A3D /* OpenInNotionUITests */,
+				15BA8EA9257BF5F100456A3D /* OpenInNotion Extension */,
+				15BA8EA6257BF5F100456A3D /* Frameworks */,
+				15BA8E7B257BF5EF00456A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15BA8E7B257BF5EF00456A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8E7A257BF5EF00456A3D /* OpenInNotion.app */,
+				15BA8E8C257BF5F100456A3D /* OpenInNotionTests.xctest */,
+				15BA8E97257BF5F100456A3D /* OpenInNotionUITests.xctest */,
+				15BA8EA2257BF5F100456A3D /* OpenInNotion Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15BA8E7C257BF5EF00456A3D /* OpenInNotion */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8E7D257BF5EF00456A3D /* OpenInNotion.entitlements */,
+				15BA8E7E257BF5EF00456A3D /* AppDelegate.swift */,
+				15BA8E80257BF5EF00456A3D /* Main.storyboard */,
+				15BA8E83257BF5EF00456A3D /* ViewController.swift */,
+				15BA8E85257BF5F000456A3D /* Assets.xcassets */,
+				15BA8E87257BF5F000456A3D /* Info.plist */,
+			);
+			path = OpenInNotion;
+			sourceTree = "<group>";
+		};
+		15BA8E8F257BF5F100456A3D /* OpenInNotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8E90257BF5F100456A3D /* OpenInNotionTests.swift */,
+				15BA8E92257BF5F100456A3D /* Info.plist */,
+			);
+			path = OpenInNotionTests;
+			sourceTree = "<group>";
+		};
+		15BA8E9A257BF5F100456A3D /* OpenInNotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8E9B257BF5F100456A3D /* OpenInNotionUITests.swift */,
+				15BA8E9D257BF5F100456A3D /* Info.plist */,
+			);
+			path = OpenInNotionUITests;
+			sourceTree = "<group>";
+		};
+		15BA8EA6257BF5F100456A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8EA7257BF5F100456A3D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15BA8EA9257BF5F100456A3D /* OpenInNotion Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8EAA257BF5F100456A3D /* SafariWebExtensionHandler.swift */,
+				15BA8EBD257BF5F100456A3D /* Info.plist */,
+				15BA8EBE257BF5F100456A3D /* OpenInNotion_Extension.entitlements */,
+				15BA8EAC257BF5F100456A3D /* Resources */,
+			);
+			path = "OpenInNotion Extension";
+			sourceTree = "<group>";
+		};
+		15BA8EAC257BF5F100456A3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15BA8EAD257BF5F100456A3D /* _locales */,
+				15BA8EAF257BF5F100456A3D /* images */,
+				15BA8EB1257BF5F100456A3D /* manifest.json */,
+				15BA8EB3257BF5F100456A3D /* background.js */,
+				15BA8EB5257BF5F100456A3D /* content.js */,
+				15BA8EB7257BF5F100456A3D /* popup.html */,
+				15BA8EB9257BF5F100456A3D /* popup.css */,
+				15BA8EBB257BF5F100456A3D /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15BA8E79257BF5EF00456A3D /* OpenInNotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA8EC5257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotion" */;
+			buildPhases = (
+				15BA8E76257BF5EF00456A3D /* Sources */,
+				15BA8E77257BF5EF00456A3D /* Frameworks */,
+				15BA8E78257BF5EF00456A3D /* Resources */,
+				15BA8EC4257BF5F100456A3D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BA8EA5257BF5F100456A3D /* PBXTargetDependency */,
+			);
+			name = OpenInNotion;
+			productName = OpenInNotion;
+			productReference = 15BA8E7A257BF5EF00456A3D /* OpenInNotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15BA8E8B257BF5F100456A3D /* OpenInNotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA8EC8257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotionTests" */;
+			buildPhases = (
+				15BA8E88257BF5F100456A3D /* Sources */,
+				15BA8E89257BF5F100456A3D /* Frameworks */,
+				15BA8E8A257BF5F100456A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BA8E8E257BF5F100456A3D /* PBXTargetDependency */,
+			);
+			name = OpenInNotionTests;
+			productName = OpenInNotionTests;
+			productReference = 15BA8E8C257BF5F100456A3D /* OpenInNotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15BA8E96257BF5F100456A3D /* OpenInNotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA8ECB257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotionUITests" */;
+			buildPhases = (
+				15BA8E93257BF5F100456A3D /* Sources */,
+				15BA8E94257BF5F100456A3D /* Frameworks */,
+				15BA8E95257BF5F100456A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BA8E99257BF5F100456A3D /* PBXTargetDependency */,
+			);
+			name = OpenInNotionUITests;
+			productName = OpenInNotionUITests;
+			productReference = 15BA8E97257BF5F100456A3D /* OpenInNotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		15BA8EA1257BF5F100456A3D /* OpenInNotion Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA8EC1257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotion Extension" */;
+			buildPhases = (
+				15BA8E9E257BF5F100456A3D /* Sources */,
+				15BA8E9F257BF5F100456A3D /* Frameworks */,
+				15BA8EA0257BF5F100456A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenInNotion Extension";
+			productName = "OpenInNotion Extension";
+			productReference = 15BA8EA2257BF5F100456A3D /* OpenInNotion Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15BA8E72257BF5EF00456A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					15BA8E79257BF5EF00456A3D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					15BA8E8B257BF5F100456A3D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 15BA8E79257BF5EF00456A3D;
+					};
+					15BA8E96257BF5F100456A3D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 15BA8E79257BF5EF00456A3D;
+					};
+					15BA8EA1257BF5F100456A3D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 15BA8E75257BF5EF00456A3D /* Build configuration list for PBXProject "OpenInNotion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15BA8E71257BF5EF00456A3D;
+			productRefGroup = 15BA8E7B257BF5EF00456A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15BA8E79257BF5EF00456A3D /* OpenInNotion */,
+				15BA8E8B257BF5F100456A3D /* OpenInNotionTests */,
+				15BA8E96257BF5F100456A3D /* OpenInNotionUITests */,
+				15BA8EA1257BF5F100456A3D /* OpenInNotion Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15BA8E78257BF5EF00456A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8E86257BF5F000456A3D /* Assets.xcassets in Resources */,
+				15BA8E82257BF5EF00456A3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E8A257BF5F100456A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E95257BF5F100456A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8EA0257BF5F100456A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8EB4257BF5F100456A3D /* background.js in Resources */,
+				15BA8EBA257BF5F100456A3D /* popup.css in Resources */,
+				15BA8EB8257BF5F100456A3D /* popup.html in Resources */,
+				15BA8EB0257BF5F100456A3D /* images in Resources */,
+				15BA8EB2257BF5F100456A3D /* manifest.json in Resources */,
+				15BA8EAE257BF5F100456A3D /* _locales in Resources */,
+				15BA8EB6257BF5F100456A3D /* content.js in Resources */,
+				15BA8EBC257BF5F100456A3D /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15BA8E76257BF5EF00456A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8E84257BF5EF00456A3D /* ViewController.swift in Sources */,
+				15BA8E7F257BF5EF00456A3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E88257BF5F100456A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8E91257BF5F100456A3D /* OpenInNotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E93257BF5F100456A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8E9C257BF5F100456A3D /* OpenInNotionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA8E9E257BF5F100456A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA8EAB257BF5F100456A3D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15BA8E8E257BF5F100456A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BA8E79257BF5EF00456A3D /* OpenInNotion */;
+			targetProxy = 15BA8E8D257BF5F100456A3D /* PBXContainerItemProxy */;
+		};
+		15BA8E99257BF5F100456A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BA8E79257BF5EF00456A3D /* OpenInNotion */;
+			targetProxy = 15BA8E98257BF5F100456A3D /* PBXContainerItemProxy */;
+		};
+		15BA8EA5257BF5F100456A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BA8EA1257BF5F100456A3D /* OpenInNotion Extension */;
+			targetProxy = 15BA8EA4257BF5F100456A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15BA8E80257BF5EF00456A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BA8E81257BF5EF00456A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15BA8EBF257BF5F100456A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15BA8EC0257BF5F100456A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		15BA8EC2257BF5F100456A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "OpenInNotion Extension/OpenInNotion_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenInNotion Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotion.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15BA8EC3257BF5F100456A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "OpenInNotion Extension/OpenInNotion_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OpenInNotion Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotion.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15BA8EC6257BF5F100456A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenInNotion/OpenInNotion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenInNotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15BA8EC7257BF5F100456A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenInNotion/OpenInNotion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenInNotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15BA8EC9257BF5F100456A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenInNotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenInNotion.app/Contents/MacOS/OpenInNotion";
+			};
+			name = Debug;
+		};
+		15BA8ECA257BF5F100456A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenInNotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenInNotion.app/Contents/MacOS/OpenInNotion";
+			};
+			name = Release;
+		};
+		15BA8ECC257BF5F100456A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenInNotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OpenInNotion;
+			};
+			name = Debug;
+		};
+		15BA8ECD257BF5F100456A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenInNotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petrusholm.OpenInNotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OpenInNotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15BA8E75257BF5EF00456A3D /* Build configuration list for PBXProject "OpenInNotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA8EBF257BF5F100456A3D /* Debug */,
+				15BA8EC0257BF5F100456A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA8EC1257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotion Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA8EC2257BF5F100456A3D /* Debug */,
+				15BA8EC3257BF5F100456A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA8EC5257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA8EC6257BF5F100456A3D /* Debug */,
+				15BA8EC7257BF5F100456A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA8EC8257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA8EC9257BF5F100456A3D /* Debug */,
+				15BA8ECA257BF5F100456A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA8ECB257BF5F100456A3D /* Build configuration list for PBXNativeTarget "OpenInNotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA8ECC257BF5F100456A3D /* Debug */,
+				15BA8ECD257BF5F100456A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15BA8E72257BF5EF00456A3D /* Project object */;
+}
